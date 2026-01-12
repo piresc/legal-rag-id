@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Environment
+.env
+.venv/
+venv/
+ENV/
+env/
+
+# Logs
+*.log
+logs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data (keep .pkl files, ignore large raw files)
+!data/vectors/*.pkl
+data/raw/*.txt
+data/processed/*.json
+
+# Docker
+.dockerignore
+
+# Claude
+.claude/
+
+# Temporary
+tmp/
+temp/
+*.bak
+*.py~
